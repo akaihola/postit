@@ -1,0 +1,24 @@
+* Bootstrapping postit.kaihola.fi
+Ok so no I have GitHub repos set up for the posts in my blog/wiki
+("postit") and the publishing engine ("sanapano").
+
+I'll write the posts in Emacs org-mode and create a Python script for
+rendering them into static pages.  There will be a post-commit hook on
+GitHub for running the engine and publishing changes all the way into
+postit.kaihola.fi.
+
+One of the first things to decide is how to mark up metadata in
+org-mode.  I'd like to have a shortcut for marking a post "published"
+or "updated" and have a timestamp set automatically.  A good way might
+be to create and use custom TODO states.
+
+The publishing engine should go through all .org files in the "postit"
+repository, parse them and convert each published top-level item into
+an HTML file.
+
+Oh, and before you ask, I am aware of existing tools for this kind of
+workflow.  I guess I'm just suffering from the NIH syndrome, but I
+also want the tools to adapt to my existing habits and not vice versa.
+
+The next step now is to make a minimal version of the publishing
+engine to get this post on-line.  Off to coding now.
