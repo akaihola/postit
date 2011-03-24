@@ -1,6 +1,6 @@
 * Bootstrapping postit.kaihola.fi
-Ok so no I have GitHub repos set up for the posts in my blog/wiki
-("postit") and the publishing engine ("sanapano").
+I have GitHub repos set up for the posts in my blog/wiki ("postit")
+and the publishing engine ("sanapano").
 
 I'm writing the posts in Emacs org-mode and the publishing engine in
 Python WSGI.  The engine will render posts into static pages.  I've
