@@ -2,10 +2,10 @@
 Ok so no I have GitHub repos set up for the posts in my blog/wiki
 ("postit") and the publishing engine ("sanapano").
 
-I'm writing the posts in Emacs org-mode and I'll create a Python
-script for rendering them into static pages.  I've set up a
-post-receive hook on GitHub for notifying the engine and publishing
-changes all the way into postit.kaihola.fi.
+I'm writing the posts in Emacs org-mode and the publishing engine in
+Python WSGI.  The engine will render posts into static pages.  I've
+set up a post-receive hook on GitHub for notifying the engine and
+publishing changes all the way into postit.kaihola.fi.
 
 One of the first things to decide is how to mark up metadata in
 org-mode.  I'd like to have a shortcut for marking a post "published"
