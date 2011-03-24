@@ -22,3 +22,7 @@ also want the tools to adapt to my existing habits and not vice versa.
 
 The next step now is to make a minimal version of the publishing
 engine to get this post on-line.  Off to coding now.
+* Design of my publishing engine
+I'm building up from scratch with a minimal Python WSGI skeleton.  I
+decided to take this approach and add dependencies as needed instead
+of deciding on a web framework from the start.
